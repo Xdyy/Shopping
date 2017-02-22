@@ -1,0 +1,138 @@
+﻿@charset "utf-8";
+*{ transition:all .6s ease;}
+html, body, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, img, p{margin:0px;padding:0px;}
+ul, li, dl, dt, dd{list-style:none;}
+ol{list-style-type: decimal; list-style-position: outside;}
+img{border:none; vertical-align:bottom}
+input, select, option {margin:0;}
+a{text-decoration:none;}
+.clear{clear:both;}
+body{font:14px/1.5 "宋体","微软雅黑"; min-width:1190px;}
+
+
+.top{background-color:#f7f7f7; font-size:12px; height:36px; line-height:36px; border-bottom:1px solid #CCC;}
+.wrap{width:1172px; margin:0 auto; padding:0 9px;}
+.wrap a{color:#000;}
+.login{float:left;}
+.login .red,.search .red{color:#F00;}
+.help{float:right;}
+
+
+.header{width:1172px;margin:0 auto; margin-top:20px; padding:0 9px;overflow:hidden;}
+.logo{float:left;}
+.search{float:right; margin-top:3px;}
+.text{width:460px;height:36px;border:2px solid #da3a4c; vertical-align:middle; outline:none; background:url(../images/shop1_03.png) no-repeat 6px center; padding-left:29px;}
+.btn{width:90px;height:42px; background-color:#da3a4c; border:none; color:#FFF; outline:none;font-size:18px; vertical-align:middle; cursor:pointer}
+.list{background-color:#FFF; width:489px; display:none; border:1px solid #CCC;border-top:none;position:absolute; z-index:100;}
+.list li{line-height:1.8;font-size:12px; list-style:none;padding:6px; cursor:pointer;}
+.list li:hover{ background-color:#F4F4F4;}
+.cart{margin-left:120px;float:right; width:144px; height:32px; padding-top:14px;background:url(../images/shop1_03.jpg) no-repeat;}
+.cart a{margin:0 17px 0 14px; font-size:12px; color:#000;}
+.cart .num{color:#FFF; font-weight:bold;}
+.search_1{visibility:hidden;padding:10px 0;background-color:#000;text-align:center;width:100%;position:fixed; z-index:100;}
+.search_2 .text{ color:#FFF;}
+
+
+.wrap_1{ border-bottom:2px solid #f22e00;}
+.box{width:1190px;margin:16px auto 0;}
+.classify{float:left; width:190px;}
+.classify h4{color:#FFF;position:relative; background:url(../images/shop1_10.png) no-repeat 9px center #f22e00; height:40px; line-height:40px; padding-left:39px; cursor:pointer;}
+.classify h4:hover ul{display: block}
+.classify h4 ul{width:180px; position:absolute;left:0px;font-weight:normal;display:none;border:2px solid #cf313f; border-top:none;background-color:#FFF; opacity:.9;z-index:100; padding:6px; padding-right:0;}
+.classify h4 li{line-height:2.3;padding-left:17px; color:#000;}
+.classify h4 li a{color:#000;}
+.classify li:hover{background-color:#f22e00;padding-left:19px;color:#FFF;}
+.classify li:hover div{display:block}
+.classify li:hover a{color:#FFF;}
+.classify .show{border:2px solid #f22e00;width:600px; color:#ccc;background-color:#FFF;min-height:386px;display:none;position:absolute;left:186px;top:0; padding-left:16px;}
+.classify .commodity dl{ margin:9px 29px 9px 0; font-size:12px; overflow:hidden;}
+.classify .commodity dl a{color:#000;}
+.classify .commodity dl a:hover{color:#f22e00;}
+.classify .commodity dt{border-bottom:1px dashed #CCC;margin-bottom:9px;padding-bottom:6px;font-weight:bold; margin-left:6px;}
+.classify .commodity dd{float:left;line-height:2.1;}
+.classify .commodity dd a{padding:0 6px;}
+
+.shop1{margin-left:3px; box-shadow:0 0 16px 0 #999;position:relative; z-index:10; padding-bottom:36px;}
+.shop1 h3{ background-color:#ffdadf;height:39px; line-height:39px; font-size:15px; padding-left:16px;}
+.shop1 ul{width:187px;background-color:#FFF; opacity:.9;}
+.shop1 li{line-height:1.8;position:relative;padding:0 0 9px 17px; z-index:10;}
+.shop1 li em{border-top:1px dashed #CCC;width:150px; padding-top:9px; display: inline-block;}
+.shop1 li em a{ font-style:normal; font-weight:bold; color:#3c3c3c;}
+.shop1 li span{ display:block;}
+.shop1 li span a{color:#6c6c6c;}
+.shop1 li:hover{background-color:#3c3c3c;}
+.shop1 li:hover span a{color:#fff;}
+.shop1 li span a:hover{color:#f22e00;}
+.shop1 .show{border:1px solid #000;min-height:100%;display:none;width:460px;}
+.shop1 .commodity dt{border-bottom:2px dashed #CCC;margin-left:16px; }
+.shop1 .commodity dd a{line-height:2.3; padding:0 16px;border-right:1px solid #CCC;}
+
+.nav{overflow:hidden;}
+.nav ul{}
+.nav li{float:left;padding:9px 19px 0; height:30px; line-height:30px;}
+.nav li a{ font-weight:bold; color:#000;}
+.nav li a:hover{color:#cf313f;}
+.nav .usr_1{background: url(../images/new_03.jpg) no-repeat right top;}
+.nav .usr_1 a{ color:#d03240;}
+.nav .usr_2{background: url(../images/hot_05.jpg) no-repeat right top;}
+
+
+.banner{width:990px;height:300px;overflow:hidden;position:relative;}
+.banner ul{width:9999px;position:absolute;}
+.banner li{list-style: none;float:left;}
+.banner li img{width:990px;height:300px;}
+.btn_1{position:absolute;width:100%;bottom:6px;padding-left:39%;}
+.btn_1 span{display:inline-block;width:30px;height:3px;background-color:#CCC;opacity:.6;margin-right:9px;}
+.btn_1 .cur_1{background: #f22e00;opacity: .6;}
+.left_1{background: url(../images/left.png) no-repeat;display:block; opacity:0;width: 42px;height: 39px;position: absolute;top:43%;left:-45px;cursor:pointer;}
+.right_1{background: url(../images/right.png) no-repeat;display:block;opacity:0;width: 42px;height: 39px;position: absolute;top:43%;right:-45px; cursor:pointer;}
+
+
+.hot{overflow:hidden;width:970px; background-color:#f9f9f9;padding:10px 0 39px 20px;}
+.hot h1{ background:url(../images/shop2_47.jpg) repeat-x left 19px; padding-left:56px;}
+.hot h1 span{ display:block;font-family:"微软雅黑";background-color:#f9f9f9;width:76px; text-align:center;}
+.hot dl{border:1px solid #e6e6e6;width:172px;padding:10px 0 10px 10px; float:left;margin:16px 10px 0 0;}
+.hot dl:hover{ box-shadow:0 0 9px 0 #ccc;margin-top:12px;transition: margin 0.3s ease;}
+.hot dt{}
+.hot dd{width:160px;}
+.hot dd a{font-size:12px; color:#3c3c3c; line-height:1.8;}
+.hot dd a:hover{color:#f22e00;}
+.hot dd del{color:#999; font-size:13px;display:block; line-height:1; margin-top:6px;}
+.hot dd em{color:#f22e00;font-style:normal; font-family:"微软雅黑";font-size:16px;font-weight:bold;}
+.hot dd span{ border:1px solid #ed2d00;border-radius:3px; background:linear-gradient(#f22e00,#e22b00);width:160px;height:30px;display:block;text-align:center; line-height:30px;color:#FFF;font-size:12px; margin-top:16px;}
+.hot dd span:hover{background:linear-gradient(#e61c37,#f61c37);}
+
+
+.main{width:1190px;margin:10px auto; overflow: hidden}
+
+.food{ overflow:hidden; margin:20px 0;}
+.left{width:998px; background-color:#fffcf9; float:left; box-shadow:3px 0 9px 0 #ccc;}
+.left h1{color:#666; background-color:#fbfbfb; height:59px;font-family:"微软雅黑"; line-height:59px; padding-left:36px; border:1px solid #EEE;border-bottom:4px solid #6c6c6c;}
+.left img{float:left}
+.left dl{width:140px; padding:15px 26px;overflow:hidden; float:left; border-right:1px dashed #CCC;}
+.left dl:hover{ background-color:#CCC;}
+.left dt{ margin-bottom:10px;}
+.left dt img{float:none}
+.left dd{}
+.left dd a{font-size:12px; color:#3c3c3c; line-height:1.8;}
+.left dd a:hover{color:#f22e00;}
+.left dd em{color:#f22e00;font-style:normal; width:96px; display:inline-block;font-family:"微软雅黑";font-size:12px;font-weight:bold;}
+.left dd del{color:#999; font-size:13px; line-height:1; margin-top:6px;}
+
+.right{float:right;width:150px; padding:0 20px; background-color:#EEE;}
+.right h2{border-bottom:1px solid #d2d2d2;padding:16px 0 12px;}
+.right dl{position:relative;cursor:pointer;padding:16px 0;border-top:1px solid #fbfbfb;border-bottom:1px solid #d2d2d2;}
+.right dt{float:left;margin-right:6px;display:none;}
+.right dd span{display:block;width:15px;height:15px;color:#FFF;font-weight:bold;position:absolute;text-align:center;line-height:15px;background-color:#b0b0b0;border:1px solid #9f9f9f;border-radius:3px;}
+.right dd a{font-size:12px;color:#000;display:block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;margin-left:26px; }
+.right dd a:hover{color:#f22e00;}
+.right dd em{color:#f22e00;font-style:normal;display:none;margin-top:6px;font-family:"微软雅黑";font-size:12px;font-weight:bold;}
+
+
+.footer{background-color:#f5f5f5;border-top:1px solid #CCC;}
+.biaozhi{ width:1060px;margin:0 auto;padding:30px 0; overflow:hidden}
+.biaozhi dl{ float:left;border-right:1px solid #CCC; width:190px; padding:0 36px;}
+.biaozhi dt{ float:left ;margin-right:6px; }
+.biaozhi dd{}
+
+.copyright{ text-align:center; font-size:12px; color:#666; padding-bottom:30px;}
